@@ -1,0 +1,51 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: lightgray;
+    padding: 24px;
+    font-size: 24px;
+}
+
+footer {
+    background-color: lightgray;    
+    padding: 24px;
+}
+
+main {
+    padding: 24px;
+}
+
+.nav-item {
+    list-style: none;
+    width: max-content;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: blue;
+}
+
+.nav-item.active {
+    color: blue;
+    font-weight: bold;
+}
+
+main {
+    padding: 24px;
+}
+
+.blog-post {
+    background-color: lightgray;
+    margin-bottom: 24px;
+    padding: 24px;
+    width: 600px;
+
+    border-radius: 8px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
