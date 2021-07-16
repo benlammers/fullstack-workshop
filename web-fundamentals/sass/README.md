@@ -16,8 +16,12 @@ This repository contains example files and resources regarding SASS and its conc
 - Browser such as Chrome, Firefox or Safari
 
 ### Compiling and Running Files
-Since SASS needs to be compiled to CSS for the browser to understand it we use a node package called "sass" to do this for us.
-After changes are made to you SASS file run the command
+Since SASS needs to be compiled to CSS for the browser to understand it we use a node package called "sass" to do this for us. Upon opening the repository the first time to install "sass" you must run
+```sh
+npm install
+```
+
+From then on after changes are made to you SASS file run the command
 ```sh 
 npm run compile
 ```
