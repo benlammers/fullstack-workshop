@@ -1,1 +1,5 @@
+# All node modules
 node_modules/
+
+# Any Temp Powerpoint Files
+~$*.pptx

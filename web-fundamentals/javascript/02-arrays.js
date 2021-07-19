@@ -11,6 +11,13 @@ let newTrucks = [...trucks]                 //    newTrucks holds a copy of truc
 trucks.pop("Ford F150")                     //    Removes "Ford F150" from trucks array
 console.log({ trucks, newTrucks})           //    newTrucks is unaffected by removal
 
+const addThreeNumbers = (x, y, z) => {
+  console.log(x + y + z)
+}
+
+let args = [1, 2, 3]
+
+addThreeNumbers(...args)                     //    Can use it to pass in arguments from array to function
 
 /*  DESTRUCTURING ARRAYS  */
 let interns = ["Connor", "Jack", "Jake", "Nana", "Braedon", "Matt", "Chris", "Oliver", "Noor", "Ben"]
