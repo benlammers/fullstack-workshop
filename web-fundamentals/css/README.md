@@ -84,7 +84,7 @@ Brief description of the goal of each section, important topics in the section a
 
 **Resources**
 - [A Guide to Flexbox - Chris Coyier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [CSS Grid Layout - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
+- [Flexbox - MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
 
 
 ### 03 Grids
