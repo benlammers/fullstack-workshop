@@ -1,0 +1,23 @@
+.app {
+   min-height: 100%;
+   display: grid;
+   grid-template-rows: max-content 1fr max-content;
+}
+
+main {
+   padding: 2rem;
+}
+
+.posts {
+   display: grid;
+   row-gap: 2rem;
+   padding: 1rem 0;
+}
+
+.post {
+   display: grid;
+   background-color: lightgray;
+   row-gap: 0.2rem;
+   padding: 1rem;
+   border-radius: 12px;
+}

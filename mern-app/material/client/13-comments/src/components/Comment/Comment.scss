@@ -1,0 +1,42 @@
+.ant-comment {
+   background-color: white !important;
+   padding: 0.2rem 1rem;
+   border-radius: 8px;
+
+   .ant-comment-content-author-name,
+   .ant-comment-content-author-time {
+      font-size: 1rem;
+   }
+
+   .ant-comment-content-author-name span {
+      color: black;
+   }
+
+   .ant-comment-content-author-time span {
+      color: var(--color-gray-dark);
+   }
+
+   .ant-comment-actions {
+      display: grid;
+      grid-template-columns: repeat(2, max-content) 1fr max-content;
+      user-select: none;
+
+      .anticon-caret-down {
+         color: red;
+      }
+
+      .anticon-caret-up {
+         color: green;
+      }
+
+      & > li {
+         display: grid;
+         align-items: center;
+         justify-content: start;
+      }
+
+      & > li > span {
+         font-size: 1.2rem;
+      }
+   }
+}

@@ -1,0 +1,14 @@
+.app {
+   min-height: 100%;
+   display: grid;
+   grid-template-rows: max-content 1fr max-content;
+}
+
+main {
+   padding: 2rem;
+   background-color: var(--color-gray-light);
+
+   h1 {
+      text-align: center;
+   }
+}

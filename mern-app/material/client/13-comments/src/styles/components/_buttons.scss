@@ -1,0 +1,16 @@
+.ant-btn-primary {
+   background: var(--color-primary);
+   border-color: var(--color-primary);
+
+   &:active,
+   &:focus,
+   &:hover {
+      border-color: var(--color-primary);
+      background: var(--color-primary);
+      opacity: 1.1;
+   }
+}
+
+.anticon-delete {
+   color: red !important;
+}

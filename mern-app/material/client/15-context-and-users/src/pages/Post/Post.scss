@@ -1,0 +1,21 @@
+.post {
+   &__details {
+      display: grid;
+      grid-template-columns: 1fr max-content;
+      font-size: 1.4rem;
+   }
+
+   &__content {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+   }
+
+   &__comments {
+      display: grid;
+      row-gap: 1rem;
+   }
+
+   form {
+      margin-top: 1rem;
+   }
+}

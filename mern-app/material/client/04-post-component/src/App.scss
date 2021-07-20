@@ -1,0 +1,16 @@
+.app {
+   min-height: 100%;
+   display: grid;
+   grid-template-rows: max-content 1fr max-content;
+}
+
+main {
+   padding: 2rem;
+   background-color: var(--color-gray-light);
+}
+
+.posts {
+   display: grid;
+   row-gap: 2rem;
+   padding: 1rem 0;
+}

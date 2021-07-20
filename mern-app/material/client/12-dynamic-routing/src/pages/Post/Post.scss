@@ -1,0 +1,11 @@
+.post {
+   &__details {
+      display: grid;
+      grid-template-columns: 1fr max-content;
+      font-size: 1.4rem;
+   }
+
+   &__content {
+      font-size: 1.2rem;
+   }
+}

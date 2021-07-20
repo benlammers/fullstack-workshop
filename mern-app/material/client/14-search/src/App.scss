@@ -1,0 +1,17 @@
+.app {
+   min-height: 100%;
+   display: grid;
+   grid-template-rows: max-content 1fr max-content;
+   background-color: var(--color-gray-light);
+}
+
+main {
+   padding: 2rem;
+   margin: 0 auto;
+   width: 90vw;
+   max-width: 920px;
+
+   h1 {
+      text-align: center;
+   }
+}

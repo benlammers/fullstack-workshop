@@ -1,0 +1,29 @@
+.App {
+   min-height: 100%;
+   display: grid;
+   grid-template-rows: max-content 1fr max-content;
+}
+
+header {
+   background-color: var(--color-primary);
+   display: grid;
+   align-items: center;
+   justify-items: center;
+   padding: 1rem;
+
+   color: white;
+   font-size: 1.6rem;
+   font-weight: 500;
+}
+
+footer {
+   background-color: var(--color-gray-dark);
+   display: grid;
+   align-items: center;
+   justify-items: center;
+   padding: 1rem;
+
+   color: white;
+   font-size: 1rem;
+   font-weight: 500;
+}

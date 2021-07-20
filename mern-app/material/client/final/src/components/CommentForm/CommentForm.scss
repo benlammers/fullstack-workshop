@@ -1,0 +1,8 @@
+.comment-form {
+   display: grid;
+   grid-template-rows: 1fr;
+
+   & > span {
+      margin-bottom: 1rem;
+   }
+}
