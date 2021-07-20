@@ -22,10 +22,16 @@ mongoose.connection.on("connected", () => console.log("Mongodb connected"));
 mongoose.connection.on("error", err => console.log("Mongodb error: " + err));
 mongoose.connection.on("disconnected", () => console.log("Mongodb disconnected"));
 
+// CORS
+app.use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE");
+    res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
+    return next();
+  });
+
 app.get('/', (request, response) => {
-    return response.status(200).send({
-        message: "Hello World!",
-    });
+    return response.status(200).send("Readit API");
 })
 
 app.use(router);
