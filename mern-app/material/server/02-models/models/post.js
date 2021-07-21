@@ -9,8 +9,6 @@ const postSchema = new Schema({
    date: { type: Date, default: Date.now },
 });
 
-postSchema.index({ "$**": "text" });
-
 const Post = mongoose.model("Post", postSchema);
 
 export default Post;

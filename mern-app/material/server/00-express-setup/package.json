@@ -12,11 +12,9 @@
   "author": "BeNoor",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.13.2"
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "dotenv": "^10.0.0",
     "nodemon": "^2.0.12"
   }
 }
