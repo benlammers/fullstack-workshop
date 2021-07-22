@@ -21,7 +21,7 @@ Content of this repository is based off of content from
 ### Requirements
 - Experience using anther coding language such as Java, Python etc.
 -  [Node JS](https://nodejs.org/en/download/) - Node JS is required to run JavaScript files
-- Code editor such as VSCode or Atom
+- Code editor such as [VSCode](https://code.visualstudio.com/)
 
 ### Running JavaScript
 To run one of the files simply go to your terminal and run

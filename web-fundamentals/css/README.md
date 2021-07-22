@@ -19,7 +19,7 @@ This repository contains example files and resources regarding CSS and its conce
 ## Getting Started
 ### Requirements
 - Basic understanding of HTML
-- Code Editor such as VSCode or Atom
+- Code Editor such as [VSCode](https://code.visualstudio.com/)
 - Browser such as Chrome, Firefox or Safari
 
 ### Running the files

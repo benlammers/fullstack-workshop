@@ -11,7 +11,7 @@ This repository contains example files and resources regarding HTML and its conc
 
 ## Getting Started
 ### Requirements
-- Code Editor such as VSCode or Atom
+- Code Editor such as [VSCode](https://code.visualstudio.com/)
 - Browser such as Chrome, Firefox or Safari
 
 ### Running the files

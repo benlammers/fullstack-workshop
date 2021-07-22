@@ -11,7 +11,7 @@ This repository contains example files and resources regarding SASS and its conc
 
 ## Getting Started
 ### Requirements
-- Code Editor such as VSCode or Atom
+- Code Editor such as [VSCode](https://code.visualstudio.com/)
 -  [Node JS](https://nodejs.org/en/download/) - Node JS is required to run JavaScript files
 - Browser such as Chrome, Firefox or Safari
 
