@@ -25,14 +25,13 @@ else console.log("Number is greater than 10")
 25 === "25"                 // false
 
 25 != "25"                  // false
-25 !== "25"                 // false
+25 !== "25"                 // true
 
 
 /*  TRUTHY VS FALSY  */
 const isTrue = (name, value) => {
     if (value) console.log(`${name} is true`)
     else console.log(`${name} is false`)
-    return 
 }
 
 // Falsy

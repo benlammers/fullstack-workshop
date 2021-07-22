@@ -8,7 +8,7 @@ let vehicles = [...cars, ...trucks]         //    vehicles = ["Honda Civic", "To
                                             //             "Ford F150", "Toyota Tacoma", "Chevrolet Silverado"]
 
 let newTrucks = [...trucks]                 //    newTrucks holds a copy of trucks array
-trucks.pop("Ford F150")                     //    Removes "Ford F150" from trucks array
+trucks.pop()                                //    Removes "Chevrolet Silverado" from end of trucks array
 console.log({ trucks, newTrucks})           //    newTrucks is unaffected by removal
 
 const addThreeNumbers = (x, y, z) => {
