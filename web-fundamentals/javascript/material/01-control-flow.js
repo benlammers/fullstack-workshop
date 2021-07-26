@@ -1,3 +1,25 @@
+/*  FOR LOOP  */
+
+// Over Arrays
+let nums = [1, 2, 3, 4, 5]
+
+for (let i = 0; i < nums.length; i++) {
+    console.log(nums[i])
+}
+
+for (num of nums) {
+    console.log(num)
+}
+
+nums.forEach(num => console.log(num))
+
+// Over Objects
+let person = { age: 22, name: "Ben", location: "Kingston" }
+
+for (prop in person) {
+    console.log(prop)
+}
+
 /*  IF/ELSE  */
 let number = 8
 
