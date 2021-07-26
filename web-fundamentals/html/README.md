@@ -27,6 +27,8 @@ This repository contains example files and resources regarding HTML and its conc
 ## Resources
 Some resources regarding the topics that are discussed
 
+- [Axe Dev Tools](https://www.deque.com/axe/)
+
 - [HTML Elements - w3schools](https://www.w3schools.com/TAGS/default.ASP)
 - [HTML Semantic Elements - w3schools](https://www.w3schools.com/html/html5_semantic_elements.asp)
 - [Why Use Semantic HTML - Jennifer Kyrnin](https://www.thoughtco.com/why-use-semantic-html-3468271)
