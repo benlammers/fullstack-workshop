@@ -84,6 +84,7 @@ _Note: If running the client and the server together you must start the server f
 
 **Installing mongo**
 
+- [Getting Your Free MongoDB Atlas Cluster - MongoDB](https://www.youtube.com/watch?v=rPqRyYJmx2g)
 - [Install mongodb](https://docs.mongodb.com/guides/server/install/)
   **Connect db to back end**
 - [Connect mongo to express server](https://www.mongodb.com/blog/post/quick-start-nodejs-mongodb--how-to-get-connected-to-your-database)
